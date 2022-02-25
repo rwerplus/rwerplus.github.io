@@ -81,17 +81,17 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: '博客搭建', link: '/pages/41f87d890d0a02af/' },
         ],
       },
-      {
-        text: '更多',
-        link: '/more/',
-        items: [
-          { text: '学习', link: '/pages/f2a556/' },
-          { text: '面试', link: '/pages/aea6571b7a8bae86/' },
-          { text: '心情杂货', link: '/pages/2d615df9a36a98ed/' },
-          { text: '实用技巧', link: '/pages/baaa02/' },
-          { text: '友情链接', link: '/friends/' },
-        ],
-      },
+      // {
+      //   text: '更多',
+      //   link: '/more/',
+      //   items: [
+      //     { text: '学习', link: '/pages/f2a556/' },
+      //     { text: '面试', link: '/pages/aea6571b7a8bae86/' },
+      //     { text: '心情杂货', link: '/pages/2d615df9a36a98ed/' },
+      //     { text: '实用技巧', link: '/pages/baaa02/' },
+      //     { text: '友情链接', link: '/friends/' },
+      //   ],
+      // },
       { text: '关于', link: '/about/' },
       {
         text: '收藏',
@@ -102,15 +102,15 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         //   { text: 'Vue资源', link: '/pages/12df8ace52d493f6/' },
         // ],
       },
-      {
-        text: '索引',
-        link: '/archives/',
-        items: [
-          { text: '分类', link: '/categories/' },
-          { text: '标签', link: '/tags/' },
-          { text: '归档', link: '/archives/' },
-        ],
-      },
+      // {
+      //   text: '索引',
+      //   link: '/archives/',
+      //   items: [
+      //     { text: '分类', link: '/categories/' },
+      //     { text: '标签', link: '/tags/' },
+      //     { text: '归档', link: '/archives/' },
+      //   ],
+      // },
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: '/img/logo.png', // 导航栏logo
@@ -118,7 +118,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
     docsDir: 'docs', // 编辑的文件夹
-    editLinks: true, // 启用编辑
+    editLinks: false, // 启用编辑
     editLinkText: '编辑',
 
     //*** 以下是Vdoing主题相关配置，文档：https://doc.xugaoyi.com/pages/a20ce8/ ***//
