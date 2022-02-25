@@ -1,5 +1,95 @@
+*, *before, *after {
+  box-sizing border-box
+}
 
+@keyframes rotate {
+  100% {
+    transform rotate(1turn)
+  }
+}
+
+@keyframes opacityChange
+  50%
+    opacity 1
+
+  100%
+    opacity .5
+
+.features
+  display none !important
+
+.banner-conent
+  position relative
+  background inherit
+  margin 50px auto !important
+  padding 5vmin
+  border-radius 5px
+  border 2px solid rgba(255, 255, 255, .5)
+
+  &::after
+    position absolute
+    content ""
+    background inherit
+    top 0
+    left 0
+    right 0
+    bottom 0
+    filter blur(10px)
+    z-index 0
+
+  .hero
+    position relative
+    color whitesmoke
+    z-index 10
+    font-size 24px
+    line-height 1.5
+
+$img = 'https://cdn.jsdelivr.net/gh/lanfengcloud/lanfengcloud.github.io@master/20220225/xxx.mrtsg0up228.webp'
 // 评论区颜色重置
+.banner
+  position relative
+  z-index 0 !important
+  height 300px !important
+  border-radius 10px !important
+  overflow hidden !important
+  width 100% !important
+  background-image url($img) !important
+  background-repeat no-repeat !important
+  background-attachment fixed !important
+  background-size cover !important
+
+  &::before
+    content ''
+    position absolute
+    z-index -2
+    left -50%
+    top -50%
+    width 200%
+    height 200%
+    background-color #FF0066
+    background-repeat no-repeat
+    background-size 50% 50%, 50% 50%
+    background-position 0 0, 100% 0, 100% 100%, 0 100%
+    background-image linear-gradient(#FF0066, #FF0066), linear-gradient(#fbb300, #fbb300),linear-gradient(#FF6634, #FF6634), linear-gradient(#003399, #003399)
+    animation rotate 6s linear infinite
+
+
+  &::after
+    content ''
+    position absolute
+    z-index -1
+    left 6px
+    top 6px
+    width calc(100% - 12px)
+    height calc(100% - 12px)
+    background-image url($img) !important
+    border-radius 5px
+    animation opacityChange 3s infinite alternate
+
+.slide-banner
+  display none !important
+
+
 .gt-container
   .gt-ico-tip
     &::after
