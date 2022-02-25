@@ -295,23 +295,23 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     },
 
     // 评论区
-    'vuepress-plugin-comment': {
-      choosen: 'gitalk',
-      options: {
-        clientID: '1e60a23a38542b2ef724',
-        clientSecret: '768e1a4754fa9e243d64f081bf155010d6cbec8e',
-        repo: 'lanfengcloud.github.io', // GitHub 仓库
-        owner: 'lanfengcloud', // GitHub仓库所有者
-        admin: ['lanfengcloud'], // 对仓库有写权限的人
-        // distractionFreeMode: true,
-        pagerDirection: 'last', // 'first'正序 | 'last'倒序
-        id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50
-        title: '「评论」<%- frontmatter.title %>', // GitHub issue 的标题
-        labels: ['Gitalk', 'Comment'], // GitHub issue 的标签
-        body:
-          '页面：<%- window.location.origin + (frontmatter.to.path || window.location.pathname) %>', // GitHub issue 的内容
-      },
-    },
+    // 'vuepress-plugin-comment': {
+    //   choosen: 'gitalk',
+    //   options: {
+    //     clientID: '1e60a23a38542b2ef724',
+    //     clientSecret: '768e1a4754fa9e243d64f081bf155010d6cbec8e',
+    //     repo: 'lanfengcloud.github.io', // GitHub 仓库
+    //     owner: 'lanfengcloud', // GitHub仓库所有者
+    //     admin: ['lanfengcloud'], // 对仓库有写权限的人
+    //     // distractionFreeMode: true,
+    //     pagerDirection: 'last', // 'first'正序 | 'last'倒序
+    //     id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50
+    //     title: '「评论」<%- frontmatter.title %>', // GitHub issue 的标题
+    //     labels: ['Gitalk', 'Comment'], // GitHub issue 的标签
+    //     body:
+    //       '页面：<%- window.location.origin + (frontmatter.to.path || window.location.pathname) %>', // GitHub issue 的内容
+    //   },
+    // },
 
     // "上次更新"的时间格式
     '@vuepress/last-updated': {
