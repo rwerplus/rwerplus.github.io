@@ -21,10 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="64cd53e4-2ab7-4d94-a6b8-db587ff2b404" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/img/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/public/img/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/public/img/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/styles/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/styles/index.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/04.更多/10.实用技巧/10.一行代码“黑”掉任意网站.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/04.更多/10.实用技巧/10.一行代码“黑”掉任意网站.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/04.更多/10.实用技巧/10.一行代码“黑”掉任意网站.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/04.更多/10.实用技巧/10.Service Worker简述.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +109,7 @@
       <option name="presentableId" value="Default" />
       <updated>1645687732446</updated>
       <workItem from="1645687733531" duration="17975000" />
-      <workItem from="1645768518810" duration="6659000" />
+      <workItem from="1645768518810" duration="7748000" />
     </task>
     <task id="LOCAL-00001" summary="修改author">
       <created>1645706413592</created>
@@ -141,7 +138,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改author" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改author" />
+    <MESSAGE value="修改图片地址" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改图片地址" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1025" y="356" key="#Plugins" timestamp="1645768561281">

@@ -1,11 +1,11 @@
 ---
 home: true
-heroImage: /img/web.png
+# heroImage: /img/logo.png
 heroText: LanFeng's Blog
 tagline: 坚持创作，深入原理，抽象式的解决问题。一直在程序的道路上跌走。
 # actionText: 立刻进入 →
 # actionLink: /web/
-# bannerBg:  none
+bannerBg:  none
 
 # features: # 可选的
 #   - title: 前端xxx
