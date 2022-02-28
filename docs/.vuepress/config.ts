@@ -110,7 +110,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       //     { text: '标签', link: '/tags/' },
       //     { text: '归档', link: '/archives/' },
       //   ],
-      // },
+      // },F
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: '/img/logo.png', // 导航栏logo
