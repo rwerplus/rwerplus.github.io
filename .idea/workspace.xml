@@ -21,9 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="64cd53e4-2ab7-4d94-a6b8-db587ff2b404" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/04.更多/10.实用技巧/10.Service Worker简述.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/01.前端/25.JavaScript文章/10.Service Worker简述.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/05.关于/01.关于.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/05.关于/01.关于.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +45,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/.vuepress/public/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
@@ -63,7 +60,7 @@
       <recent name="D:\code_commit\blog\lanfengcloud.github.io\docs\.vuepress\public\img" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.editFm">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -96,9 +93,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev" />
         <item itemvalue="npm.editFm" />
         <item itemvalue="npm.deploy" />
-        <item itemvalue="npm.dev" />
       </list>
     </recent_temporary>
   </component>
@@ -112,6 +109,8 @@
       <updated>1645687732446</updated>
       <workItem from="1645687733531" duration="17975000" />
       <workItem from="1645768518810" duration="14662000" />
+      <workItem from="1646203180800" duration="43000" />
+      <workItem from="1646204047758" duration="1439000" />
     </task>
     <task id="LOCAL-00001" summary="修改author">
       <created>1645706413592</created>
@@ -149,22 +148,26 @@
       <screen x="0" y="0" width="2560" height="1392" />
     </state>
     <state x="1025" y="356" key="#Plugins/0.0.2560.1392/2560.0.1920.1032@0.0.2560.1392" timestamp="1645768561281" />
-    <state width="1729" height="405" key="GridCell.Tab.0.bottom" timestamp="1645774917892">
+    <state x="1305" y="518" key="FileChooserDialogImpl" timestamp="1646204103524">
       <screen x="0" y="0" width="2560" height="1392" />
     </state>
-    <state width="1729" height="405" key="GridCell.Tab.0.bottom/0.0.2560.1392/2560.0.1920.1032@0.0.2560.1392" timestamp="1645774917892" />
-    <state width="1729" height="405" key="GridCell.Tab.0.center" timestamp="1645774917892">
+    <state x="1305" y="518" key="FileChooserDialogImpl/0.0.2560.1392/2560.0.1920.1032@0.0.2560.1392" timestamp="1646204103524" />
+    <state width="1882" height="486" key="GridCell.Tab.0.bottom" timestamp="1646203223540">
       <screen x="0" y="0" width="2560" height="1392" />
     </state>
-    <state width="1729" height="405" key="GridCell.Tab.0.center/0.0.2560.1392/2560.0.1920.1032@0.0.2560.1392" timestamp="1645774917892" />
-    <state width="1729" height="405" key="GridCell.Tab.0.left" timestamp="1645774917892">
+    <state width="1882" height="486" key="GridCell.Tab.0.bottom/0.0.2560.1392/2560.0.1920.1032@0.0.2560.1392" timestamp="1646203223540" />
+    <state width="1882" height="486" key="GridCell.Tab.0.center" timestamp="1646203223540">
       <screen x="0" y="0" width="2560" height="1392" />
     </state>
-    <state width="1729" height="405" key="GridCell.Tab.0.left/0.0.2560.1392/2560.0.1920.1032@0.0.2560.1392" timestamp="1645774917892" />
-    <state width="1729" height="405" key="GridCell.Tab.0.right" timestamp="1645774917892">
+    <state width="1882" height="486" key="GridCell.Tab.0.center/0.0.2560.1392/2560.0.1920.1032@0.0.2560.1392" timestamp="1646203223540" />
+    <state width="1882" height="486" key="GridCell.Tab.0.left" timestamp="1646203223540">
       <screen x="0" y="0" width="2560" height="1392" />
     </state>
-    <state width="1729" height="405" key="GridCell.Tab.0.right/0.0.2560.1392/2560.0.1920.1032@0.0.2560.1392" timestamp="1645774917892" />
+    <state width="1882" height="486" key="GridCell.Tab.0.left/0.0.2560.1392/2560.0.1920.1032@0.0.2560.1392" timestamp="1646203223540" />
+    <state width="1882" height="486" key="GridCell.Tab.0.right" timestamp="1646203223540">
+      <screen x="0" y="0" width="2560" height="1392" />
+    </state>
+    <state width="1882" height="486" key="GridCell.Tab.0.right/0.0.2560.1392/2560.0.1920.1032@0.0.2560.1392" timestamp="1646203223540" />
     <state x="1067" y="459" width="598" height="536" key="find.popup" timestamp="1645783575120">
       <screen x="0" y="0" width="2560" height="1392" />
     </state>
