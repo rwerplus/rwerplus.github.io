@@ -20,6 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="64cd53e4-2ab7-4d94-a6b8-db587ff2b404" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/01.前端/10.HTML/10.常用meta整理.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/01.前端/10.HTML/10.常用meta整理.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/02.页面/00.DevUI.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/02.页面/00.DevUI.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/02.页面/01.enalPro.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/02.页面/01.enalPro.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -147,7 +150,7 @@
       <workItem from="1645768518810" duration="14662000" />
       <workItem from="1646203180800" duration="43000" />
       <workItem from="1646204047758" duration="1439000" />
-      <workItem from="1648624250501" duration="7159000" />
+      <workItem from="1648624250501" duration="7756000" />
     </task>
     <task id="LOCAL-00001" summary="修改author">
       <created>1645706413592</created>
