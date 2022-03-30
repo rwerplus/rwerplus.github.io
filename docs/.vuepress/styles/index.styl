@@ -44,7 +44,11 @@
     font-size 24px
     line-height 1.5
 
-$img = 'https://cdn.jsdelivr.net/gh/lanfengcloud/lanfengcloud.github.io@master/20220225/xxx.mrtsg0up228.webp'
+$img = 'https://cdn.jsdelivr.net/gh/rwerplus/rwerplus@master/20220224/bg.t1b5w3nju5s.webp'
+$top = #70696b
+$bottom = #c5c3be
+$left = rgba(129, 81, 66, 0.55)
+$right = #66799b
 // 评论区颜色重置
 .banner
   position relative
@@ -66,12 +70,12 @@ $img = 'https://cdn.jsdelivr.net/gh/lanfengcloud/lanfengcloud.github.io@master/2
     top -50%
     width 200%
     height 200%
-    background-color #FF0066
+    background-color #642929
     background-repeat no-repeat
     background-size 50% 50%, 50% 50%
     background-position 0 0, 100% 0, 100% 100%, 0 100%
-    background-image linear-gradient(#FF0066, #FF0066), linear-gradient(#fbb300, #fbb300),linear-gradient(#FF6634, #FF6634), linear-gradient(#003399, #003399)
-    animation rotate 6s linear infinite
+    background-image linear-gradient($top, $top), linear-gradient($bottom, $bottom),linear-gradient($left, $left), linear-gradient($right, $right)
+    animation rotate 20s linear infinite
 
 
   &::after
@@ -84,7 +88,7 @@ $img = 'https://cdn.jsdelivr.net/gh/lanfengcloud/lanfengcloud.github.io@master/2
     height calc(100% - 12px)
     background-image url($img) !important
     border-radius 5px
-    animation opacityChange 3s infinite alternate
+    animation opacityChange 6s infinite alternate
 
 .slide-banner
   display none !important

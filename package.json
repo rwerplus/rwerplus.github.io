@@ -1,5 +1,5 @@
 {
-  "name": "fenglancloud-blog",
+  "name": "rwerplus_blog",
   "version": "1.0.0",
   "scripts": {
     "dev": "vuepress dev docs",
@@ -12,9 +12,13 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "chalk": "^5.0.1",
     "dayjs": "^1.9.7",
+    "gray-matter": "^4.0.3",
     "inquirer": "^7.1.0",
     "json2yaml": "^1.1.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
     "vuepress": "1.9.5",
     "vuepress-plugin-baidu-autopush": "^1.0.1",
     "vuepress-plugin-baidu-tongji": "^1.0.1",

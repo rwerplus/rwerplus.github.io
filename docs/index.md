@@ -1,7 +1,7 @@
 ---
 home: true
 # heroImage: /img/logo.png
-heroText: LanFeng's Blog
+heroText: 花椒和邻居's Blog
 tagline: 坚持创作，深入原理，抽象式的解决问题。一直在程序的道路上跌走。
 # actionText: 立刻进入 →
 # actionLink: /web/

@@ -13,7 +13,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: "LanFeng's Blog",
+      title: "花椒和邻居's Blog",
       description: 'web前端技术博客,持续专注web前端学习与总结。JavaScript,js,ES6,TypeScript,vue,React,css3,html5,Node,git,github等技术文章。',
     }
   },
@@ -27,48 +27,15 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       {
         text: '前端',
         link: '/web/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
-        // items: [
-        //   // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
-        //   {
-        //     text: '前端文章',
-        //     items: [
-        //       { text: 'JavaScript', link: '/pages/8143cc480faf9a11/' },
-        //     ],
-        //   },
-        //   {
-        //     text: '学习笔记',
-        //     items: [
-        //       { text: '《JavaScript教程》', link: '/note/javascript/' },
-        //       { text: '《JavaScript高级程序设计》', link: '/note/js/' },
-        //       { text: '《ES6 教程》', link: '/note/es6/' },
-        //       { text: '《Vue》', link: '/note/vue/' },
-        //       { text: '《React》', link: '/note/react/' },
-        //       {
-        //         text: '《TypeScript 从零实现 axios》',
-        //         link: '/note/typescript-axios/',
-        //       },
-        //       {
-        //         text: '《Git》',
-        //         link: '/note/git/',
-        //       },
-        //       {
-        //         text: 'TypeScript',
-        //         link: '/pages/51afd6/',
-        //       },
-        //       {
-        //         text: 'JS设计模式总结',
-        //         link: '/pages/4643cd/',
-        //       },
-        //     ],
-        //   },
-        // ],
+        items: [
+          { text: 'HTML相关', link: '/pages/8309a5b876fc95e3/' },
+          { text: 'CSS相关', link: '/pages/0a83b083bdf257cb/' },
+        ]
       },
       {
         text: '开源',
         link: '/ui/',
         items: [
-          { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
-          { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
         ],
       },
       {
@@ -89,7 +56,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: '/img/logo.png', // 导航栏logo
-    repo: 'lanfengcloud/lanfengcloud.github.io', // 导航栏右侧生成Github链接
+    repo: 'rwerplus/rwerplus.github.io', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
     docsDir: 'docs', // 编辑的文件夹
@@ -114,7 +81,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     //   '图标地址1',
     //   '图标地址2'
     // ],
-    // contentBgStyle: 1, // 文章内容块的背景风格，默认无. 1 方格 | 2 横线 | 3 竖线 | 4 左斜线 | 5 右斜线 | 6 点状
+    contentBgStyle: 6, // 文章内容块的背景风格，默认无. 1 方格 | 2 横线 | 3 竖线 | 4 左斜线 | 5 右斜线 | 6 点状
 
     // updateBar: { // 最近更新栏
     //   showToArticle: false, // 显示到文章页底部，默认true
@@ -129,14 +96,14 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 文章默认的作者信息，(可在md文件中单独配置此信息) string | {name: string, link?: string}
     author: {
-      name: 'lanfengcloud', // 必需
-      link: 'https://github.com/lanfengcloud', // 可选的
+      name: '花椒和邻居', // 必需
+      link: 'https://github.com/rwerplus', // 可选的
     },
 
     // 博主信息 (显示在首页侧边栏)
     blogger: {
       avatar: 'https://cdn.jsdelivr.net/gh/lanfengcloud/lanfengcloud.github.io@master/20220224/ava.2gamq0p5pj8k.webp',
-      name: 'LanFeng',
+      name: '花椒和邻居',
       slogan: '工作了三年半的前端实习生',
     },
 
@@ -152,7 +119,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         {
           iconClass: 'icon-github',
           title: 'GitHub',
-          link: 'https://github.com/lanfengcloud',
+          link: 'https://github.com/rwerplus',
         },
         {
           iconClass: 'icon-erji',
@@ -166,7 +133,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     footer: {
       createYear: 2022, // 博客创建年份
       copyrightInfo:
-        'LanFengCloud | <a href="https://github.com/lanfengcloud/lanfengcloud.github.io/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签或换行标签</br>
+        '花椒和邻居 | <a href="https://github.com/rwerplus/rwerplus.github.io/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签或换行标签</br>
     },
 
     // 自定义hmtl(广告)模块
@@ -198,10 +165,10 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
   // 插件配置
   plugins: {
     // 导入本地插件（供学习参考）
-    // [resolve(__dirname, './plugins/love-me')]: { // 鼠标点击爱心特效
-    //   color: '#11a8cd', // 爱心颜色，默认随机色
-    //   excludeClassName: 'theme-vdoing-content' // 要排除元素的class, 默认空''
-    // },
+    [resolve(__dirname, './plugins/love-me')]: { // 鼠标点击爱心特效
+      color: '#11a8cd', // 爱心颜色，默认随机色
+      excludeClassName: 'theme-vdoing-content' // 要排除元素的class, 默认空''
+    },
 
     // 百度自动推送
     'vuepress-plugin-baidu-autopush': {},
@@ -269,15 +236,15 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       },
     },
 
-    // 评论区
+/*    // 评论区
     'vuepress-plugin-comment': {
       choosen: 'gitalk',
       options: {
         clientID: '6954e93451c22aa00b5a',
         clientSecret: '9dd371dbdab3576b8afb26f6217ac88b77ab1591',
-        repo: 'lanfengcloud.github.io', // GitHub 仓库
-        owner: 'lanfengcloud', // GitHub仓库所有者
-        admin: ['lanfengcloud'], // 对仓库有写权限的人
+        repo: 'rwerplus.github.io', // GitHub 仓库
+        owner: 'rwerplus', // GitHub仓库所有者
+        admin: ['rwerplus'], // 对仓库有写权限的人
         // distractionFreeMode: true,
         pagerDirection: 'last', // 'first'正序 | 'last'倒序
         id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50
@@ -286,7 +253,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         body:
           '页面：<%- window.location.origin + (frontmatter.to.path || window.location.pathname) %>', // GitHub issue 的内容
       },
-    },
+    },*/
 
     // "上次更新"的时间格式
     '@vuepress/last-updated': {
