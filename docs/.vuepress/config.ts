@@ -1,6 +1,7 @@
 import { resolve } from 'path'
 import { defineConfig4CustomTheme } from 'vuepress/config'
 import { VdoingThemeConfig } from 'vuepress-theme-vdoing/types'
+// @ts-ignore
 import dayjs from 'dayjs'
 import baiduCode from './config/baiduCode' // 百度统计hm码
 import htmlModules from './config/htmlModules' // 自定义插入的html块
@@ -34,8 +35,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       },
       {
         text: '开源',
-        link: '/ui/',
+        link: '/open/',
         items: [
+          {text: '目录', link: '/pages/open/'}
         ],
       },
       {
@@ -102,7 +104,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 博主信息 (显示在首页侧边栏)
     blogger: {
-      avatar: 'https://cdn.jsdelivr.net/gh/lanfengcloud/lanfengcloud.github.io@master/20220224/ava.2gamq0p5pj8k.webp',
+      avatar: '/img/ava.2gamq0p5pj8k.webp',
       name: '花椒和邻居',
       slogan: '工作了三年半的前端实习生',
     },
