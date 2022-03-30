@@ -20,35 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="64cd53e4-2ab7-4d94-a6b8-db587ff2b404" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/02.页面/00.DevUI.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/02.页面/01.enalPro.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/img/bg.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/img/more.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/img/other.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/img/web.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/styles/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/styles/index.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/00.目录页/01.前端.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/00.目录页/01.前端.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/00.目录页/02.页面.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/00.目录页/02.页面.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/01.前端/26.3D地图相关/01.Cesium入门.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/01.前端/26.3D地图相关/01.Cesium入门.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/02.页面/10.HTML/10.常用meta整理.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/01.前端/10.HTML/10.常用meta整理.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/02.页面/20.CSS/00.CSS教程和技巧收藏.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/01.前端/20.CSS/00.CSS教程和技巧收藏.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/02.页面/20.CSS/01.flex布局语法.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/01.前端/20.CSS/01.flex布局语法.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/02.页面/20.CSS/02.flex布局案例-基础.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/01.前端/20.CSS/02.flex布局案例-基础.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/02.页面/20.CSS/03.flex布局案例-骰子.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/01.前端/20.CSS/03.flex布局案例-骰子.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/02.页面/20.CSS/04.flex布局案例-圣杯布局.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/01.前端/20.CSS/04.flex布局案例-圣杯布局.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/02.页面/20.CSS/05.flex布局案例-网格布局.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/01.前端/20.CSS/05.flex布局案例-网格布局.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/02.页面/20.CSS/06.flex布局案例-输入框布局.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/01.前端/20.CSS/06.flex布局案例-输入框布局.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/02.页面/20.CSS/07.CSS3之transition过渡.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/01.前端/20.CSS/07.CSS3之transition过渡.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/02.页面/20.CSS/08.CSS3之animation动画.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/01.前端/20.CSS/08.CSS3之animation动画.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/02.页面/20.CSS/20.「布局技巧」图片未加载前自动撑开元素高度.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/01.前端/20.CSS/20.「布局技巧」图片未加载前自动撑开元素高度.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/02.页面/20.CSS/30.文字在一行或多行时超出显示省略号.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/01.前端/20.CSS/30.文字在一行或多行时超出显示省略号.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/02.页面/20.CSS/35.从box-sizing属性入手，了解盒子模型.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/01.前端/20.CSS/35.从box-sizing属性入手，了解盒子模型.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/02.页面/20.CSS/40.水平垂直居中的几种方式-案例.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/01.前端/20.CSS/40.水平垂直居中的几种方式-案例.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/02.页面/20.CSS/45.如何根据系统主题自动响应CSS深色模式.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/01.前端/20.CSS/45.如何根据系统主题自动响应CSS深色模式.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/02.页面/20.CSS/50.「css技巧」使用hover和attr()定制悬浮提示.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/01.前端/20.CSS/50.「css技巧」使用hover和attr()定制悬浮提示.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/02.页面/20.CSS/60.CSS-function汇总.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/01.前端/20.CSS/60.CSS-function汇总.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/02.页面/01.enalPro.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/02.页面/01.enalPro.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +147,7 @@
       <workItem from="1645768518810" duration="14662000" />
       <workItem from="1646203180800" duration="43000" />
       <workItem from="1646204047758" duration="1439000" />
-      <workItem from="1648624250501" duration="7004000" />
+      <workItem from="1648624250501" duration="7159000" />
     </task>
     <task id="LOCAL-00001" summary="修改author">
       <created>1645706413592</created>
