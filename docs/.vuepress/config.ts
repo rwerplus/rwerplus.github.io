@@ -36,9 +36,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       {
         text: '开源',
         link: '/open/',
-        items: [
-          {text: '目录', link: '/pages/open/'}
-        ],
+        items: [],
       },
       {
         text: '技术',
