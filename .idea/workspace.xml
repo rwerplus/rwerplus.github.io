@@ -19,7 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64cd53e4-2ab7-4d94-a6b8-db587ff2b404" name="Default Changelist" comment="增加serviceworker笔记" />
+    <list default="true" id="64cd53e4-2ab7-4d94-a6b8-db587ff2b404" name="Default Changelist" comment="增加serviceworker笔记">
+      <change afterPath="$PROJECT_DIR$/docs/03.技术/05.java/01.java程序基础.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/03.技术/05.java/052.java.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/03.技术/05.java/052.java.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/03.技术/05.一些工具安装.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/03.技术/07.一些工具安装.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/03.技术/06.编写好看的markdown文档.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/03.技术/06.编写好看的markdown文档.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/06.收藏夹/01.网站.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/06.收藏夹/01.网站.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +62,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/code_commit/cli/enalpro" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
@@ -146,6 +153,8 @@
       <workItem from="1646203180800" duration="43000" />
       <workItem from="1646204047758" duration="1439000" />
       <workItem from="1648624250501" duration="7890000" />
+      <workItem from="1649656510282" duration="427000" />
+      <workItem from="1649666665343" duration="4646000" />
     </task>
     <task id="LOCAL-00001" summary="修改author">
       <created>1645706413592</created>
