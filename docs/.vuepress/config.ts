@@ -15,7 +15,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     '/': {
       lang: 'zh-CN',
       title: "花椒和邻居's Blog",
-      description: 'web前端技术博客,持续专注web前端学习与总结。JavaScript,js,ES6,TypeScript,vue,React,css3,html5,Node,git,github等技术文章。',
+      description: 'web前端技术博客,花椒和邻居sBlog,持续专注web前端学习与总结。Cesium,markdown,JavaScript,js,ES6,TypeScript,vue,React,css3,html5,Node,git,github等技术文章。',
     }
   },
   // base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
@@ -60,8 +60,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
     docsDir: 'docs', // 编辑的文件夹
-    editLinks: false, // 启用编辑
-    editLinkText: '编辑',
+    editLinks: true, // 启用编辑
+    editLinkText: '去GitHub编辑',
 
     //*** 以下是Vdoing主题相关配置，文档：https://doc.xugaoyi.com/pages/a20ce8/ ***//
 
