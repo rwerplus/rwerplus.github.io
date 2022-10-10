@@ -20,7 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="64cd53e4-2ab7-4d94-a6b8-db587ff2b404" name="Default Changelist" comment="增加serviceworker笔记">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/01.前端/01.前端开发笔记/06.一个网络请求是怎么进行的.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/01.前端/01.前端开发笔记/06.一个网络请求是怎么进行的.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,16 +54,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "yarn",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\rwerplus.github.io\docs\02.页面" />
@@ -151,6 +152,11 @@
       <workItem from="1649656510282" duration="427000" />
       <workItem from="1649666665343" duration="4646000" />
       <workItem from="1650103406041" duration="49000" />
+      <workItem from="1650697645846" duration="69000" />
+      <workItem from="1665048167922" duration="95000" />
+      <workItem from="1665336287310" duration="983000" />
+      <workItem from="1665367573217" duration="183000" />
+      <workItem from="1665367769384" duration="48000" />
     </task>
     <task id="LOCAL-00001" summary="修改author">
       <created>1645706413592</created>
@@ -215,7 +221,6 @@
         <entry key="02d29446-fc89-494b-9a32-2496ac2513e5" value="TOOL_WINDOW" />
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改author" />
