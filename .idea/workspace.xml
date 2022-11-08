@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64cd53e4-2ab7-4d94-a6b8-db587ff2b404" name="Default Changelist" comment="增加serviceworker笔记">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/01.前端/01.前端开发笔记/06.一个网络请求是怎么进行的.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/01.前端/01.前端开发笔记/06.一个网络请求是怎么进行的.md" afterDir="false" />
-    </list>
+    <list default="true" id="64cd53e4-2ab7-4d94-a6b8-db587ff2b404" name="Default Changelist" comment="修改部分错误" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,6 +56,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "F:/code_github/vision",
     "nodejs_package_manager_path": "yarn",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
@@ -156,7 +154,7 @@
       <workItem from="1665048167922" duration="95000" />
       <workItem from="1665336287310" duration="983000" />
       <workItem from="1665367573217" duration="183000" />
-      <workItem from="1665367769384" duration="48000" />
+      <workItem from="1665367769384" duration="130000" />
     </task>
     <task id="LOCAL-00001" summary="修改author">
       <created>1645706413592</created>
@@ -165,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645706413592</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="修改部分错误">
+      <created>1665367847136</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665367847136</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,6 +231,7 @@
     <MESSAGE value="修改author" />
     <MESSAGE value="修改图片地址" />
     <MESSAGE value="增加serviceworker笔记" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加serviceworker笔记" />
+    <MESSAGE value="修改部分错误" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改部分错误" />
   </component>
 </project>

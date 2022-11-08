@@ -233,7 +233,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       },
     },
 
-/*    // 评论区
+   // 评论区
     'vuepress-plugin-comment': {
       choosen: 'gitalk',
       options: {
@@ -250,7 +250,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         body:
           '页面：<%- window.location.origin + (frontmatter.to.path || window.location.pathname) %>', // GitHub issue 的内容
       },
-    },*/
+    },
 
     // "上次更新"的时间格式
     '@vuepress/last-updated': {
