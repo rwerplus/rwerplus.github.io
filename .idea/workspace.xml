@@ -19,7 +19,82 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64cd53e4-2ab7-4d94-a6b8-db587ff2b404" name="Default Changelist" comment="修改部分错误" />
+    <list default="true" id="64cd53e4-2ab7-4d94-a6b8-db587ff2b404" name="Default Changelist" comment="修改部分错误">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/01.前端/25.JavaScript/10.Service Worker简述.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/01.前端/25.JavaScript/10.Service Worker简述.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/03.技术/01.技术文档/03.npm常用命令.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/03.技术/01.技术文档/03.npm常用命令.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/03.技术/01.技术文档/08.记一次nvm安装失败的过程.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/03.技术/01.技术文档/08.记一次nvm安装失败的过程.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/03.技术/05.java/01.javase程序基础.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/03.技术/05.java/01.javase程序基础.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/03.技术/99.友情链接.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/03.技术/99.友情链接.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/components/AlgoliaSearchBox.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/components/ArchivesPage.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/components/ArticleInfo.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/components/BloggerBar.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/components/BodyBgImg.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/components/Buttons.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/components/Catalogue.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/components/CategoriesBar.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/components/CategoriesPage.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/components/DropdownLink.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/components/DropdownTransition.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/components/Footer.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/components/Home.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/components/MainLayout.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/components/NavLink.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/components/NavLinks.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/components/Navbar.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/components/Page.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/components/PageEdit.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/components/PageNav.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/components/Pagination.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/components/PostList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/components/RightMenu.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/components/Sidebar.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/components/SidebarButton.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/components/SidebarGroup.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/components/SidebarLink.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/components/SidebarLinks.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/components/TagsBar.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/components/TagsPage.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/components/UpdateArticle.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/enhanceApp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/global-components/Badge.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/global-components/CodeBlock.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/global-components/CodeGroup.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/layouts/404.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/layouts/Layout.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/mixins/posts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/mixins/titleBadge.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/node_utils/getSidebarData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/node_utils/handlePage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/node_utils/modules/fn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/node_utils/modules/readFileList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/node_utils/setFrontmatter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/noopModule.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/styles/arrow.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/styles/code-theme.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/styles/code.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/styles/config.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/styles/custom-blocks.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/styles/index.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/styles/markdown-container.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/styles/mobile.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/styles/palette.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/styles/toc.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/styles/wrapper.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/templates/dev.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/templates/ssr.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/types/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/util/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vdoing/util/postData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/yarn-error.log" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,9 +131,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "F:/code_github/vision",
+    "last_opened_file_path": "D:/code_work/lanfengcloud.github.io",
     "nodejs_package_manager_path": "yarn",
     "settings.editor.selected.configurable": "preferences.lookFeel",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2022.1\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -73,7 +149,7 @@
       <recent name="D:\code_commit\blog\lanfengcloud.github.io\docs\.vuepress\public\img" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.baiduPush">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="baiduPush" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -155,6 +231,7 @@
       <workItem from="1665336287310" duration="983000" />
       <workItem from="1665367573217" duration="183000" />
       <workItem from="1665367769384" duration="130000" />
+      <workItem from="1667887168690" duration="988000" />
     </task>
     <task id="LOCAL-00001" summary="修改author">
       <created>1645706413592</created>
