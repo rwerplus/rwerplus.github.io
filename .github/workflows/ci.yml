@@ -1,51 +1,55 @@
-name: CI
+name: docs
 
-#on: [push]
-
-# 在master分支发生push事件时触发。
 on:
+  # 每当 push 到 main 分支时触发部署
   push:
-    branches:
-      - master
+    branches: [master]
+  # 手动触发部署
+  workflow_dispatch:
 
-jobs: # 工作流
-  build: # 自定义名称
-    runs-on: ubuntu-latest #运行在虚拟机环境ubuntu-latest
+jobs:
+  docs:
+    runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [16.x]
-
-    steps: # 步骤
-      - name: Checkout 🛎️
-        uses: actions/checkout@v1 # 使用的动作。格式：userName/repoName。作用：检出仓库，获取源码。 官方actions库：https://github.com/actions
-
-      - name: Use Node.js ${{ matrix.node-version }} # 步骤2
-        uses: actions/setup-node@v1 # 作用：安装nodejs
+    steps:
+      - uses: actions/checkout@v2
         with:
-          node-version: ${{ matrix.node-version }} # 版本
+          # “最近更新时间” 等 git 日志相关信息，需要拉取全部提交记录
+          fetch-depth: 0
 
-      - name: run deploy.sh # 步骤3 （同时部署到github和coding）
-        env: # 设置环境变量
-          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }} # toKen私密变量
-          # CODING_TOKEN: ${{ secrets.CODING_TOKEN }}
-        run: npm install && npm run deploy
-
-      - name: Install and Build 🔧 # This example project is built using npm and outputs the result to the 'build' folder. Replace with the commands required to build your project, or remove this step entirely if your site is pre-built.
-        run: |
-          npm install
-          npm run build
-          cd docs/.vuepress/dist
-          cd -
-
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@4.1.5 # 作用：将项目构建和部署到github。 https://github.com/JamesIves/github-pages-deploy-action
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
         with:
-          branch: gh-pages # The branch the action should deploy to.
-          folder: docs/.vuepress/dist # The folder the action should deploy.
-        # env: # 设置环境变量
-        #   ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }} # toKen私密变量
-        #   BASE_BRANCH: master # 要部署的文件夹所在的分支.
-        #   BRANCH: gh-pages # 部署到的分支
-        #   FOLDER: docs/.vuepress/dist # 要部署的文件夹.
-        # BUILD_SCRIPT: npm install && npm run build && cd docs/.vuepress/dist  && cd - # 部署前要执行的命令（记得cd进入某个目录后，后面要cd -退回开始的目录）
+          # 选择要使用的 node 版本
+          node-version: "14"
+
+      # 缓存 node_modules
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        id: yarn-cache
+        with:
+          path: |
+            **/node_modules
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+
+      # 如果缓存没有命中，安装依赖
+      - name: Install dependencies
+        if: steps.yarn-cache.outputs.cache-hit != 'true'
+        run: yarn
+
+      # 运行构建脚本
+      - name: Build VuePress site
+        run: yarn docs:build
+
+      # 查看 workflow 的文档来获取更多信息
+      # @see https://github.com/crazy-max/ghaction-github-pages
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@3.7.1
+        with:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          # 部署到 gh-pages 分支
+          BRANCH: gh-pages
+          # 部署目录为 VuePress 的默认输出目录
+          FOLDER: docs/.vuepress/dist

@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64cd53e4-2ab7-4d94-a6b8-db587ff2b404" name="Default Changelist" comment="修改部分错误">
+    <list default="true" id="64cd53e4-2ab7-4d94-a6b8-db587ff2b404" name="Default Changelist" comment="fix: 部署失败代码回退">
       <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
     </list>
@@ -38,6 +39,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -81,7 +83,7 @@
       <recent name="D:\code_commit\blog\lanfengcloud.github.io\docs\.vuepress\public\img" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="npm.deploy">
     <configuration name="baiduPush" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -164,7 +166,7 @@
       <workItem from="1665367573217" duration="183000" />
       <workItem from="1665367769384" duration="130000" />
       <workItem from="1667887168690" duration="1256000" />
-      <workItem from="1667965003202" duration="556000" />
+      <workItem from="1667965003202" duration="5396000" />
     </task>
     <task id="LOCAL-00001" summary="修改author">
       <created>1645706413592</created>
@@ -187,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667888372244</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix: 部署失败代码回退">
+      <created>1667965909229</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667965909229</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,11 +246,37 @@
             <State />
           </value>
         </entry>
+        <entry key="db44d27f-d043-4fe1-97e8-f26f5dab06e1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="OPEN_GENERIC_TABS">
       <map>
         <entry key="02d29446-fc89-494b-9a32-2496ac2513e5" value="TOOL_WINDOW" />
+        <entry key="db44d27f-d043-4fe1-97e8-f26f5dab06e1" value="TOOL_WINDOW" />
       </map>
     </option>
   </component>
@@ -250,6 +285,7 @@
     <MESSAGE value="修改图片地址" />
     <MESSAGE value="增加serviceworker笔记" />
     <MESSAGE value="修改部分错误" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改部分错误" />
+    <MESSAGE value="fix: 部署失败代码回退" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: 部署失败代码回退" />
   </component>
 </project>
