@@ -12,12 +12,12 @@ cd docs/.vuepress/dist
 # deploy to github pages
 echo 'https://rwerplus.github.io/' > CNAME
 
-if [ -z "$GITHUB_TOKEN" ]; then
+if [ -z "$ACCESS_TOKEN" ]; then
   msg='deploy'
   githubUrl=git@github.com:rwerplus/rwerplus.github.io.git
 else
   msg='来自github actions的自动部署'
-  githubUrl=https://rwerplus:${GITHUB_TOKEN}@github.com/rwerplus/rwerplus.github.io.git
+  githubUrl=https://rwerplus:${ACCESS_TOKEN}@github.com/rwerplus/rwerplus.github.io.git
   git config --global user.name "rwerplus"
   git config --global user.email "localfeng@163.com"
 fi
