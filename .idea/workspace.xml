@@ -19,11 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64cd53e4-2ab7-4d94-a6b8-db587ff2b404" name="Default Changelist" comment="fix: 部署失败代码回退">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="64cd53e4-2ab7-4d94-a6b8-db587ff2b404" name="Default Changelist" comment="ci: 自动部署失败修复">
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/img/87452.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadME.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadME.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/00.目录页/04.更多.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/00.目录页/04.更多.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,23 +56,26 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
   <component name="ProjectId" id="25XyTLAlOjNB6OyL3g8pf9zhVFu" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/code_work/lanfengcloud.github.io&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2022.1\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/code_work/lanfengcloud.github.io/docs/.vuepress/public/img",
+    "nodejs_package_manager_path": "yarn",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2022.1\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\rwerplus.github.io\docs\02.页面" />
@@ -166,7 +170,8 @@
       <workItem from="1665367573217" duration="183000" />
       <workItem from="1665367769384" duration="130000" />
       <workItem from="1667887168690" duration="1256000" />
-      <workItem from="1667965003202" duration="5396000" />
+      <workItem from="1667965003202" duration="6454000" />
+      <workItem from="1668742842182" duration="348000" />
     </task>
     <task id="LOCAL-00001" summary="修改author">
       <created>1645706413592</created>
@@ -196,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667965909229</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ci: 自动部署失败修复">
+      <created>1667980363653</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667980363653</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,6 +298,7 @@
     <MESSAGE value="增加serviceworker笔记" />
     <MESSAGE value="修改部分错误" />
     <MESSAGE value="fix: 部署失败代码回退" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: 部署失败代码回退" />
+    <MESSAGE value="ci: 自动部署失败修复" />
+    <option name="LAST_COMMIT_MESSAGE" value="ci: 自动部署失败修复" />
   </component>
 </project>
