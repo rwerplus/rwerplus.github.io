@@ -19,12 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64cd53e4-2ab7-4d94-a6b8-db587ff2b404" name="Default Changelist" comment="ci: 自动部署失败修复">
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/img/87452.png" afterDir="false" />
+    <list default="true" id="64cd53e4-2ab7-4d94-a6b8-db587ff2b404" name="Default Changelist" comment="feat: 修改logo">
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/img/images/扫码_搜索联合传播样式-标准色版.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadME.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadME.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/00.目录页/04.更多.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/00.目录页/04.更多.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/06.收藏夹/01.网站.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/06.收藏夹/01.网站.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +70,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/code_work/lanfengcloud.github.io/docs/.vuepress/public/img",
+    "last_opened_file_path": "D:/code_work/lanfengcloud.github.io/docs/.vuepress/public/img/images",
     "nodejs_package_manager_path": "yarn",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2022.1\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
@@ -78,6 +79,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code_work\lanfengcloud.github.io\docs\.vuepress\public\img\images" />
+      <recent name="D:\code_work\lanfengcloud.github.io\docs\.vuepress\public\img" />
       <recent name="E:\rwerplus.github.io\docs\02.页面" />
       <recent name="D:\code_commit\blog\lanfengcloud.github.io\docs\.vuepress\public\img" />
     </key>
@@ -140,9 +143,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev" />
         <item itemvalue="npm.deploy" />
         <item itemvalue="npm.build" />
-        <item itemvalue="npm.dev" />
         <item itemvalue="npm.publish" />
         <item itemvalue="npm.baiduPush" />
       </list>
@@ -171,7 +174,8 @@
       <workItem from="1665367769384" duration="130000" />
       <workItem from="1667887168690" duration="1256000" />
       <workItem from="1667965003202" duration="6454000" />
-      <workItem from="1668742842182" duration="348000" />
+      <workItem from="1668742842182" duration="607000" />
+      <workItem from="1668750427883" duration="1307000" />
     </task>
     <task id="LOCAL-00001" summary="修改author">
       <created>1645706413592</created>
@@ -299,6 +303,7 @@
     <MESSAGE value="修改部分错误" />
     <MESSAGE value="fix: 部署失败代码回退" />
     <MESSAGE value="ci: 自动部署失败修复" />
-    <option name="LAST_COMMIT_MESSAGE" value="ci: 自动部署失败修复" />
+    <MESSAGE value="feat: 修改logo" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 修改logo" />
   </component>
 </project>
