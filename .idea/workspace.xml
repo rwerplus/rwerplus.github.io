@@ -19,13 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64cd53e4-2ab7-4d94-a6b8-db587ff2b404" name="Default Changelist" comment="feat: 修改logo">
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/img/images/扫码_搜索联合传播样式-标准色版.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="64cd53e4-2ab7-4d94-a6b8-db587ff2b404" name="Default Changelist" comment="feat: 升级依赖">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/06.收藏夹/01.网站.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/06.收藏夹/01.网站.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +170,7 @@
       <workItem from="1667887168690" duration="1256000" />
       <workItem from="1667965003202" duration="6454000" />
       <workItem from="1668742842182" duration="607000" />
-      <workItem from="1668750427883" duration="1307000" />
+      <workItem from="1668750427883" duration="2079000" />
     </task>
     <task id="LOCAL-00001" summary="修改author">
       <created>1645706413592</created>
@@ -304,6 +299,7 @@
     <MESSAGE value="fix: 部署失败代码回退" />
     <MESSAGE value="ci: 自动部署失败修复" />
     <MESSAGE value="feat: 修改logo" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 修改logo" />
+    <MESSAGE value="feat: 升级依赖" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 升级依赖" />
   </component>
 </project>
