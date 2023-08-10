@@ -7,8 +7,8 @@ on:
   # 手动触发部署
   workflow_dispatch:
 
-  schedule:
-    - cron: '0 12 * * *'
+#  schedule:
+#    - cron: '0 12 * * *'
 
 jobs:
   docs:
